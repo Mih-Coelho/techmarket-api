@@ -1,0 +1,16 @@
+{
+  "name": "techmarket-payments",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "winston": "^3.10.0",
+    "zod": "^3.23.8",
+    "ulid": "^2.3.0",
+    "better-sqlite3": "^9.4.0"
+  }
+}
